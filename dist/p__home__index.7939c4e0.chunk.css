@@ -1,0 +1,41 @@
+.page___H3pMP {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 24px 30px 54px;
+}
+.page___H3pMP .title___j7m6E {
+  margin-bottom: 12px;
+  color: #031938;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  line-height: 22px;
+}
+.page___H3pMP .content___fl5JM {
+  flex: 1 1;
+  background: #fff;
+  padding-top: 20px;
+}
+.content___w9Tfr {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px #97a0c31a;
+}
+.content___w9Tfr img {
+  width: 306px;
+}
+.content___w9Tfr span {
+  color: #98a1b8;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  line-height: 17px;
+}
+
+/*# sourceMappingURL=p__home__index.7939c4e0.chunk.css.map*/

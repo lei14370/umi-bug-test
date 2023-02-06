@@ -1,0 +1,67 @@
+.page___nWiNS {
+  padding: 40px;
+}
+.page___nWiNS .btnGroup___xK6jH {
+  margin-top: 48px;
+  padding-bottom: 20px;
+}
+.upload-img___CN8kg
+  .ant-upload-list
+  > .ant-upload-list-picture-card-container
+  + .ant-upload,
+.upload-img___CN8kg
+  .ant-upload-list
+  > .ant-upload-list-picture-card-container:nth-child(n + 2) {
+  display: none;
+}
+.upload-img___CN8kg .ant-upload-list .ant-upload-list-picture-card-container {
+  animation: none;
+}
+.upload-img-extra___QeOzi .txt-blue {
+  color: #4e87ff;
+}
+.addon-icon___GykrS {
+  cursor: pointer;
+}
+.input-number___hQ5e_ .ant-input-number-group {
+  width: 200px;
+}
+.logo___Dxgf7 {
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
+.upload-box___Tftop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  margin-bottom: 4px;
+  color: #98a1b8;
+  font-size: 16px;
+  background: #fff;
+  border: 1px solid rgba(203, 208, 219, 0.5);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.page___H3pMP {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 24px 30px 54px;
+}
+.page___H3pMP .title___j7m6E {
+  margin-bottom: 12px;
+  color: #031938;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  line-height: 22px;
+}
+.page___H3pMP .content___fl5JM {
+  flex: 1 1;
+  background: #fff;
+  padding-top: 20px;
+}
+
+/*# sourceMappingURL=p__logs__detail__index.9b462357.chunk.css.map*/

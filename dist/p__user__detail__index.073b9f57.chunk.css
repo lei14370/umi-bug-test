@@ -1,0 +1,69 @@
+.page___YwyBV {
+  padding: 40px;
+  border: 1px solid #e8eaf1;
+  border-radius: 8px;
+}
+.page___YwyBV .btnGroup___Z6zF7 {
+  margin-top: 48px;
+  padding-bottom: 20px;
+}
+.upload-img___tJV3X
+  .ant-upload-list
+  > .ant-upload-list-picture-card-container
+  + .ant-upload,
+.upload-img___tJV3X
+  .ant-upload-list
+  > .ant-upload-list-picture-card-container:nth-child(n + 2) {
+  display: none;
+}
+.upload-img___tJV3X .ant-upload-list .ant-upload-list-picture-card-container {
+  animation: none;
+}
+.upload-img-extra___pAqgx .txt-blue {
+  color: #4e87ff;
+}
+.addon-icon___jzTO5 {
+  cursor: pointer;
+}
+.input-number___D480C .ant-input-number-group {
+  width: 200px;
+}
+.logo___w6GZU {
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
+.upload-box___K3lp5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  margin-bottom: 4px;
+  color: #98a1b8;
+  font-size: 16px;
+  background: #fff;
+  border: 1px solid rgba(203, 208, 219, 0.5);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.page___H3pMP {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 24px 30px 54px;
+}
+.page___H3pMP .title___j7m6E {
+  margin-bottom: 12px;
+  color: #031938;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  line-height: 22px;
+}
+.page___H3pMP .content___fl5JM {
+  flex: 1 1;
+  background: #fff;
+  padding-top: 20px;
+}
+
+/*# sourceMappingURL=p__user__detail__index.073b9f57.chunk.css.map*/

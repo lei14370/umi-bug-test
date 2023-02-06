@@ -1,0 +1,21 @@
+.page___H3pMP {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 24px 30px 54px;
+}
+.page___H3pMP .title___j7m6E {
+  margin-bottom: 12px;
+  color: #031938;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  line-height: 22px;
+}
+.page___H3pMP .content___fl5JM {
+  flex: 1 1;
+  background: #fff;
+  padding-top: 20px;
+}
+
+/*# sourceMappingURL=p__user__index.8a591a6a.chunk.css.map*/

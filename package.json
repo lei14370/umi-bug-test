@@ -1,0 +1,42 @@
+{
+  "version": "1.0.8",
+  "private": true,
+  "author": "lileilei <670029024@qq.com>",
+  "scripts": {
+    "build": "max build",
+    "build:prod": "max build && node sourcemap.js",
+    "dev": "max dev",
+    "format": "prettier --cache --write .",
+    "init": "yarn add md-web-ui web-tools --registry=http://verdaccio.huojintech.com/",
+    "postinstall": "max setup",
+    "prepare": "husky install",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@ant-design/pro-components": "^2.0.1",
+    "@babel/code-frame": "^7.18.6",
+    "@types/babel__code-frame": "^7.0.3",
+    "@umijs/max": "^4.0.47",
+    "ahooks": "^3.7.4",
+    "anser": "^2.1.1",
+    "antd": "^5.0.0",
+    "html-entities": "^2.3.3",
+    "lodash": "^4.17.21",
+    "md-web-ui": "^1.0.55",
+    "react-intl-universal": "^2.6.11",
+    "web-tools": "^1.0.15"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "prettier-plugin-organize-imports": "^2",
+    "prettier-plugin-packagejson": "^2",
+    "typescript": "^4.1.2"
+  }
+}
