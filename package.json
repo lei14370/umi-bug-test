@@ -7,7 +7,6 @@
     "build:prod": "max build && node sourcemap.js",
     "dev": "max dev",
     "format": "prettier --cache --write .",
-    "init": "yarn add md-web-ui web-tools --registry=http://verdaccio.huojintech.com/",
     "postinstall": "max setup",
     "prepare": "husky install",
     "setup": "max setup",
@@ -24,9 +23,7 @@
     "antd": "^5.0.0",
     "html-entities": "^2.3.3",
     "lodash": "^4.17.21",
-    "md-web-ui": "^1.0.55",
-    "react-intl-universal": "^2.6.11",
-    "web-tools": "^1.0.15"
+    "react-intl-universal": "^2.6.11"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.191",
