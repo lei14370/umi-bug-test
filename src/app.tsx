@@ -1,19 +1,19 @@
 import { getUserInfo } from '@/services/user';
 import RightContent from './components/RightContent';
-// import { webLog } from 'web-tools/es/web-log';
-// import { utils } from 'md-web-ui';
+import { webLog } from 'web-tools/es/web-log';
+import { utils } from 'md-web-ui';
 // 全局初始化数据配置，用于 Layout 用户信息和权限初始化
 // 更多信息见文档：https://next.umijs.org/docs/api/runtime-config#getinitialstate
 type InitialStateType = {
   currentUser?: API.UserInfo;
   collapsed: boolean;
 };
-// webLog.init({
-//   appId: 'NC',
-//   getCellPhone: () => utils.getStorage('userMsg')?.phone,
-//   getThirdCustomerId: () => utils.getStorage('userMsg')?.id,
-//   appSecretKey: '123456342322ttffewsswwsswddddddw',
-// });
+webLog.init({
+  appId: 'NC',
+  getCellPhone: () => utils.getStorage('userMsg')?.phone,
+  getThirdCustomerId: () => utils.getStorage('userMsg')?.id,
+  appSecretKey: '123456342322ttffewsswwsswddddddw',
+});
 export async function getInitialState(): Promise<InitialStateType> {
   const userMsg = await getUserInfo();
   return { collapsed: false, currentUser: userMsg };

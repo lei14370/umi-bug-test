@@ -3,7 +3,7 @@ import { Form, Input, Spin, message, Button } from 'antd';
 import { EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
 import { useModel, history } from 'umi';
 
-// import { utils } from 'md-web-ui';
+import { utils } from 'md-web-ui';
 import { login, getCaptcha, getUserInfo } from '@/services/user';
 import styles from './index.less';
 
